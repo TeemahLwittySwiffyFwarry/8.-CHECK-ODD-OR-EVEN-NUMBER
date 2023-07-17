@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(94, 93, 93, 0.608);
+}
+
+.checker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    Width: 15rem;
+    margin: 5rem;
+    background-color:blueviolet;
+    border-radius: 10%;
+    
+}
+
+em{
+    margin-top: 3rem;
+    color:aqua;
+    font-weight: bold;
+}
+
+#inputBox{
+    padding: 2rem;
+    height: 3rem;
+    width: 12rem;
+}
+
+#btn{
+    padding: 2rem;
+    height: 7rem;
+    width: 12rem;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+#displayScreen {
+    padding: 2rem;
+    height: 7rem;
+    width: 12rem;
+    font-size: 2rem;
+    border-radius: 10%;
+    background-color: white;
+
+}
+
+h2{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    outline-style: dotted;
+    width: 10rem;
+}
